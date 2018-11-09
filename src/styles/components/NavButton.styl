@@ -1,0 +1,48 @@
+@import "../core/vars.styl";
+
+.NavButton
+  position relative
+  display block
+  border none
+  background-color transparent
+  color white
+  text-align left
+  width 100%
+  cursor pointer
+  height 65px
+  margin-bottom 45px
+  user-select none
+  &:last-of-type
+    margin-bottom 0
+
+  span
+    display block
+    size 16px 3px
+    background-color $grey
+    margin-top 4px
+
+  .left, .right
+    display: inline-block
+    position relative
+    vertical-align top
+
+  .left
+    width 45px
+
+  .right
+    span
+      width 121px
+
+  h3, p
+    font-family $heading-font
+    display block
+    color $grey
+    font-weight 700
+    margin 0
+
+  h3
+    font-size 50px
+    line-height 40px
+
+  p
+    font-size 19px

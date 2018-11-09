@@ -1,12 +1,11 @@
 <template>
     <div class="section">
-        <h2 ref="text">Home</h2>
+        <h2 ref="text">Contact</h2>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'home',
-        components: {},
+        name: "Contact"
     }
 </script>

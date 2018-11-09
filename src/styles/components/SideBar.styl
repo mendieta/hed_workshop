@@ -1,0 +1,31 @@
+@import "../core/vars.styl";
+
+.SideBar
+  position fixed
+  top 0
+  size 548px 100%
+  background-color transparent
+  padding 0 130px
+
+  .bg
+    position absolute
+    left 0
+    top 0
+    polygon
+      fill $white
+
+  .content
+    position relative
+    top 50%
+    transform translateY(-50%)
+
+  .closeButton
+    cursor pointer
+    position absolute
+    top 60px
+    left 100px
+    .cls-1
+      fill: #464ae9;
+      stroke: #adadad;
+      stroke-width: 1px;
+      fill-rule: evenodd;

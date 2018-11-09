@@ -7,6 +7,12 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "gsap": "^2.0.2",
+    "nib": "^1.1.2",
+    "normalize.css": "^8.0.0",
+    "rucksack-css": "^1.0.2",
+    "rupture": "^0.7.1",
+    "splitting": "^1.0.6",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -14,6 +20,8 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.1.1",
     "@vue/cli-service": "^3.1.1",
+    "jeet": "^7.2.0",
+    "poststylus": "^1.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue-template-compiler": "^2.5.17"
